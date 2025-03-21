@@ -16,6 +16,11 @@
     font-size: 76px;
  } */
 
+ .page-conteiner{
+
+  display: flex;
+ }
+
  h1{
    margin-bottom: 16px;
     font-size: 76px;
@@ -62,9 +67,18 @@
     /* horizontal */
     justify-content: center;
     height: 100vh;
+    width: 50vw;
  }
 
  .logo{
 
    height: 60px;
+ }
+
+ .robo-image{
+  background-image: url(../ASSETS/Rectangle\ 1.png);
+  background-size: cover;
+  height: 100vh;
+  width:50vw;
+
  }

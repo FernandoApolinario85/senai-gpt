@@ -21,46 +21,45 @@ button {
     background-color: black;
     color: white;
     border: 1px solid #0056b3;
-    border-radius: 26px;
+    border-radius: 15px;
     padding: 10px, 20px;
     margin-top: 15px;
     width: 358px;
     height: 48px;
-    
-}
-
-.topo p{
-
-display: flex;
-flex-direction: row;
-align-items: center;
 
 }
+
+.topo p {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+    margin-left: 83px;
+}
+
+
 .topo img {
     margin-right: 15px;
 
 }
+
 .topo {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
     height: 70%;
 
 }
 
 
-.topo p {
-    width: 100%;
-    align-items: center;
-    margin: 30px;
-    margin-left: 83px;
-}
-
 /* inferios */
 
 .bxo {
     margin-bottom: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,8 +67,16 @@ align-items: center;
 }
 
 .bxo p {
-    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    width: 100%;
+    margin: 30px;
+    margin-left: 83px;
+}
+
+.bxo img {
+    margin-right: 15px;
 }
 
 
@@ -92,7 +99,9 @@ main {
 }
 
 .txt-main {
+
     display: flex;
+
 }
 
 
@@ -101,7 +110,9 @@ main {
 }
 
 .txt-items h1 {
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 10px;
     font-size: 18px;
     font-weight: 600px;
@@ -109,13 +120,20 @@ main {
     text-align: center;
 }
 
+.txt-items img {
+    width: 40px;
+    height: 40px;
+}
+
 .txt-items p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #d6860e;
     font-size: 14px;
-    width: 280px;
-    height: 48;
+    width: 287px;
+    height: 48px;
     border-radius: 8px;
-    padding: 4, 8, 4, 8;
     margin-top: 25px;
 
 }
